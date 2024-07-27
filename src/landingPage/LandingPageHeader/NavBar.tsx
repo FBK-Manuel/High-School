@@ -69,7 +69,7 @@ function NavBar() {
   return (
     <div className="w3-top ">
       {/* for desktop */}
-      <nav className=" w3-hide-small top-0 flex z-50 items-center justify-between shadow-md bg-white text-black pr-10 pl-10 p-5">
+      <nav className=" w3-hide-small w3-hide-medium top-0 flex z-50 items-center justify-between shadow-md bg-white text-black pr-10 pl-10 p-5">
         <div className="flex-shrink-0">
           {/* Logo */}
           <img src="/logo/fed.png" alt="Logo" className="h-11 sm:h-10 " />
@@ -102,16 +102,16 @@ function NavBar() {
         </div>
       </nav>
       {/* on small screen */}
-      <nav className="w3-hide-large w3-top flex justify-between w3-hide-medium shadow-md bg-white text-black p-4">
+      <nav className="w3-hide-large w3-top flex justify-between shadow-md bg-white text-black p-4">
         <div className="">
           <img src="/logo/fed.png" width={50} height={40} alt="" />
         </div>
-        <div className="pr-9 mt-2">
+        <div className="pr-11 mt-2">
           <button onClick={() => setIsOpen(!isOpen)} className="">
             {!isOpen ? (
-              <GiHamburgerMenu className="size-7 transition duration-500 text-gray-700 ease-out" />
+              <GiHamburgerMenu className="size-7 transition duration-500 md:mr-3 text-gray-700 ease-out" />
             ) : (
-              <FaTimes className="size-7 transition duration-500 ease-out text-red-700" />
+              <FaTimes className="size-7 transition duration-500 md:mr-3 ease-out text-red-700" />
             )}
           </button>
 

@@ -12,7 +12,7 @@ const WhyChooseUs: React.FC = () => {
         </h3>
         <div className="w3-row-padding p-10 ">
           <div className="w3-third mb-5">
-            <div className="w3-container bg-white hover:shadow-lg rounded-xl p-20 transition duration-500 ease-in-out">
+            <div className="w3-container bg-white hover:shadow-lg rounded-xl p-7 transition duration-500 ease-in-out">
               <div className="">
                 <div className="flex  justify-center items-center">
                   <FaSchool className="size-10 text-blue-500 mb-2" />
@@ -28,7 +28,7 @@ const WhyChooseUs: React.FC = () => {
             </div>
           </div>
           <div className="w3-third mb-5">
-            <div className="w3-container bg-white rounded-xl p-20 hover:shadow-lg transition duration-500 ease-in-out">
+            <div className="w3-container bg-white rounded-xl p-7 hover:shadow-lg transition duration-500 ease-in-out">
               <div className="">
                 <div className="flex  justify-center items-center">
                   <MdSchool className="size-10 text-blue-500 mb-2" />
@@ -44,7 +44,7 @@ const WhyChooseUs: React.FC = () => {
             </div>
           </div>
           <div className="w3-third mb-5s">
-            <div className="w3-container bg-white rounded-xl p-20 hover:shadow-lg transition duration-500 ease-in-out">
+            <div className="w3-container bg-white rounded-xl p-7 hover:shadow-lg transition duration-500 ease-in-out">
               <div className="">
                 <div className="flex  justify-center items-center">
                   <MdMenuBook className="size-10 text-blue-500 mb-2" />
