@@ -1,5 +1,6 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import {
+  Home,
   About,
   Academics,
   Contact,
@@ -20,6 +21,16 @@ function Router() {
       element: <LandingPage />,
       errorElement: <NotFound />,
       children: [
+        {
+          path: "", //Render home page once the landing page component is rendered
+          element: <Home />,
+          errorElement: <NotFound />,
+        },
+        {
+          path: "home", //render home page if route path matches this current path
+          element: <Home />,
+          errorElement: <NotFound />,
+        },
         {
           path: "about",
           element: <About />,

@@ -1,6 +1,7 @@
-// import React from 'react'
+
 
 import {
+  ImageSliders,
   ImageCourasel,
   LatestNews,
   Newsletter,
@@ -13,12 +14,13 @@ import {
 function Home() {
   return (
     <div>
-      <div className="pt-11">
+      <ImageSliders />
+      {/* <div className="pt-11">
         <p className="text-gray-400 text-center mb-3">WE ARE THE BEST SCHOOL</p>
         <h1 className="text-center text-4xl font-bold">
           Welcome To <span className="text-blue-600">Udemy</span> School
         </h1>
-      </div>
+      </div> */}
       <WelcomeComponent />
       <WhyChooseUs />
       <Newsletter />

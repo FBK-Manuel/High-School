@@ -6,7 +6,7 @@ import { MdContactPhone, MdEventAvailable } from "react-icons/md";
 export const navLinks: NavBarType[] = [
   {
     name: "Home",
-    path: "/",
+    path: "home",
     icon: IoHomeOutline,
   },
   {
