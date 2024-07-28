@@ -1,4 +1,4 @@
-import { Header, Intro, SubHeader } from "../../landingPageComponents/aboutComponent";
+import { Header, Intro, Perks, SubHeader } from "../../landingPageComponents/aboutComponent";
 
 
 const About:React.FC = () => {
@@ -7,6 +7,7 @@ const About:React.FC = () => {
       <Header routeTitle="About Us" routeName="About" />
       <SubHeader />   
       <Intro />   
+      <Perks />
     </section>
   )
 }

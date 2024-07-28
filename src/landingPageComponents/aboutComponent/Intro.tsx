@@ -2,7 +2,7 @@ import { slide4 } from "../../assets/images";
 
 const Intro: React.FC = () => {
   return (
-    <section className="flex flex-col items-center md:flex-row gap-4 md:gap-8 lg:gap-12 w-[94%] mx-auto mt-6 md:mt-8 lg:mt-12">
+    <section className="flex flex-col items-center md:flex-row gap-4 md:gap-8 lg:gap-12 w-[94%] mx-auto my-6 md:my-8 lg:my-12">
       <div className="relative w-full h-full md:flex-1">
           <img src={slide4} className="w-[92%] h-full relative z-10 ml-auto transform -translate-y-8 object-cover rounded-md" alt="student graduands" />
           <div className="w-[92%] h-full bg-[#E9E9E9] absolute bottom-0 left-0 rounded-md"></div>
