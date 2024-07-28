@@ -1,10 +1,12 @@
-import { Header } from "../../landingPageComponents/aboutComponent";
+import { Header, Intro, SubHeader } from "../../landingPageComponents/aboutComponent";
 
 
 const About:React.FC = () => {
   return (
-    <section>
-      <Header />
+    <section className="flex flex-col gap-12">
+      <Header routeTitle="About Us" routeName="About" />
+      <SubHeader />   
+      <Intro />   
     </section>
   )
 }

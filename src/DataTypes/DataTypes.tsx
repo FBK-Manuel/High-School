@@ -66,3 +66,8 @@ export type LoginformDataErrorType = {
   password?: string;
   role?: string;
 };
+
+export type landingPageRouteHeader = {
+  routeTitle: string,
+  routeName: string,
+}
