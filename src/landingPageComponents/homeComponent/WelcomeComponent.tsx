@@ -6,11 +6,7 @@ const WelcomeComponent: React.FC = () => {
     <div>
       <div className="w3-row-padding w3-padding-32 lg:p-10 sm:p-7">
         <div className="w3-half mt-3">
-          <img
-            src="/public/images/slide4.png"
-            alt="image"
-            className="w-full h-auto"
-          />
+          <img src="/images/slide4.png" alt="image" className="w-full h-auto" />
         </div>
         <div className="w3-half w3-margin-top ">
           <h1 className="text-3xl font-semibold mt-4">

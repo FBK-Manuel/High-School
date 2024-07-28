@@ -6,6 +6,7 @@ import UpcomingEvent from "./homeComponent/UpcomingEvent";
 import WelcomeComponent from "./homeComponent/WelcomeComponent";
 import WhyChooseUs from "./homeComponent/WhyChooseUs";
 import ImageSliders from "./homeComponent/ImageSliders";
+import Search from "./EventsComponent/Search";
 
 export {
   ImageSliders,
@@ -16,4 +17,5 @@ export {
   ImageCourasel,
   UpcomingEvent,
   ParentTestimonies,
+  Search,
 };

@@ -15,7 +15,7 @@ const UpcomingEvent: React.FC = () => {
           <div className="w3-half p-5">
             <div className="w3-card-4 mb-5 rounded">
               <img
-                src="/public/images/slide6.png"
+                src="/images/slide6.png"
                 width="100%"
                 height="100%"
                 alt="image"
@@ -34,7 +34,7 @@ const UpcomingEvent: React.FC = () => {
           <div className="w3-half p-5">
             <div className="w3-card-4 rounded-lg">
               <img
-                src="/public/images/slide1.jpg"
+                src="/images/slide1.jpg"
                 width="100%"
                 height="100%"
                 alt="image"
