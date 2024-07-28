@@ -9,18 +9,18 @@ import {
   UpcomingEvent,
   WelcomeComponent,
   WhyChooseUs,
-} from "../../landingPageComponents/Index";
+} from "../../landingPageComponents/homeComponent/Index";
 
 function Home() {
   return (
     <div>
       <ImageSliders />
-      {/* <div className="pt-11">
+      <div className="pt-11">
         <p className="text-gray-400 text-center mb-3">WE ARE THE BEST SCHOOL</p>
         <h1 className="text-center text-4xl font-bold">
           Welcome To <span className="text-blue-600">Udemy</span> School
         </h1>
-      </div> */}
+      </div>
       <WelcomeComponent />
       <WhyChooseUs />
       <Newsletter />

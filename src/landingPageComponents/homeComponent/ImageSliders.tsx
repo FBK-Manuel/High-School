@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const ImageSliders: React.FC = () => {
   return (
     <div>
-      <div className="relative w-screen h-screen">
+      <div className="relative w-screen h-[86dvh]">
         <img
           src="/images/slide2.png"
           alt="Background Image"
