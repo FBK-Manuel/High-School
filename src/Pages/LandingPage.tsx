@@ -8,7 +8,7 @@ import Footer from "../landingPage/LandingPageFooter/Footer";
 function LandingPage() {
   return (
     <>
-      <header className="sticky top-0 z-50">
+      <header className="sticky top-0 z-50 h-[16dvh]">
         <NavBar />
       </header>
       <main>
