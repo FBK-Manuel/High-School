@@ -12,6 +12,7 @@ import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { HiOutlineLogin } from "react-icons/hi";
 import { TbLogin2 } from "react-icons/tb";
+import { logo } from "../../assets/images";
 // import { useEffect, useState } from "react";
 
 // import React from 'react'
@@ -72,7 +73,7 @@ function NavBar() {
       <nav className="h-[16dvh] w3-hide-small w3-hide-medium  flex z-30 items-center justify-between shadow-md bg-white text-black pr-10 pl-10 p-5">
         <div className="flex-shrink-0">
           {/* Logo */}
-          <img src="/logo/fed.png" alt="Logo" className="h-11 sm:h-10 " />
+          <img src={logo} alt="Logo" className="h-11 sm:h-10 " />
         </div>
         <div className="flex-grow flex justify-center">
           {navLinks.map((navbar, title) => (
@@ -102,16 +103,16 @@ function NavBar() {
         </div>
       </nav>
       {/* on small screen */}
-      <nav className="w3-hide-large w3-top flex justify-between shadow-md bg-white text-black p-4">
+      <nav className="w3-hide-large w3-top flex justify-between shadow-md bg-white text-black p-6">
         <div className="">
-          <img src="/logo/fed.png" width={50} height={40} alt="" />
+          <img src={logo} width={50} height={40} alt="" />
         </div>
-        <div className="pr-11 mt-2">
+        <div className="pr-6 mt-2">
           <button onClick={() => setIsOpen(!isOpen)} className="">
             {!isOpen ? (
-              <GiHamburgerMenu className="size-7 transition duration-500 md:mr-3 text-gray-700 ease-out" />
+              <GiHamburgerMenu className="size-7 transition duration-500  text-gray-700 ease-out" />
             ) : (
-              <FaTimes className="size-7 transition duration-500 md:mr-3 ease-out text-red-700" />
+              <FaTimes className="size-7 transition duration-500 ease-out text-red-700" />
             )}
           </button>
 

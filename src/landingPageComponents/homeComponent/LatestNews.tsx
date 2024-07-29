@@ -2,6 +2,14 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {
+  slide1,
+  slide2,
+  slide3,
+  slide4,
+  slide5,
+  slide6,
+} from "../../assets/images";
 
 const LatestNews: React.FC = () => {
   const settingslg = {
@@ -58,7 +66,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="images/slide4.png"
+                src={slide4}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -83,7 +91,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="images/slide3.png"
+                src={slide3}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -111,7 +119,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="images/slide6.png"
+                src={slide6}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -136,7 +144,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="images/slide5.png"
+                src={slide5}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -161,7 +169,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="images/slide2.png"
+                src={slide2}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -191,7 +199,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="/images/slide1.jpg"
+                src={slide1}
                 alt="image"
                 className="w-full h-full hover:animate-bounce "
               />
@@ -216,7 +224,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="/images/slide4.png"
+                src={slide4}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -241,7 +249,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="/images/slide3.png"
+                src={slide3}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -269,7 +277,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="/images/slide6.png"
+                src={slide6}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -294,7 +302,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="/images/slide5.png"
+                src={slide5}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />
@@ -319,7 +327,7 @@ const LatestNews: React.FC = () => {
           <div>
             <div className="w3-card-4 bg-white rounded-lg shadow-md hover:shadow-xl border border-gray-300 ">
               <img
-                src="/images/slide2.png"
+                src={slide2}
                 alt="image"
                 className="w-full h-full hover:animate-bounce"
               />

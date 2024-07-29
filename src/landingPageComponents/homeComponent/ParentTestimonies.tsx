@@ -4,6 +4,14 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { sliderType } from "../../DataTypes/DataTypes";
 import { FaFaceGrinStars } from "react-icons/fa6";
+import {
+  avatar,
+  girlMountain,
+  people1,
+  team1,
+  team2,
+  team4,
+} from "../../assets/images";
 
 const ParentTestimonies: React.FC = () => {
   const settingslg: sliderType = {
@@ -40,7 +48,7 @@ const ParentTestimonies: React.FC = () => {
             <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
               <div className="flex justify-center items-center pt-3">
                 <img
-                  src="/images/girl_mountain.jpg"
+                  src={girlMountain}
                   alt="image"
                   className="w-24 h-24 rounded-full"
                 />
@@ -66,7 +74,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/people1.jpg"
+                    src={people1}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -96,7 +104,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/img_avtar.jpg"
+                    src={avatar}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -126,7 +134,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/team1.jpg"
+                    src={team1}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -156,7 +164,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/team2.jpg"
+                    src={team2}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -186,7 +194,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/team4.jpg"
+                    src={team4}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -218,7 +226,7 @@ const ParentTestimonies: React.FC = () => {
             <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
               <div className="flex justify-center items-center pt-3">
                 <img
-                  src="/images/girl_mountain.jpg"
+                  src={girlMountain}
                   alt="image"
                   className="w-24 h-24 rounded-full"
                 />
@@ -244,7 +252,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/people1.jpg"
+                    src={people1}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -274,7 +282,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/img_avtar.jpg"
+                    src={avatar}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -304,7 +312,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/team1.jpg"
+                    src={team1}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -334,7 +342,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/team2.jpg"
+                    src={team2}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />
@@ -364,7 +372,7 @@ const ParentTestimonies: React.FC = () => {
               <div className="w3-card border bg-transparent border-gray-300 text-gray-500 p-10 rounded hover:shadow-2xl transition duration-700 ease-in-out">
                 <div className="flex justify-center items-center pt-3">
                   <img
-                    src="/images/team4.jpg"
+                    src={team4}
                     alt="image"
                     className="w-24 h-24 rounded-full"
                   />

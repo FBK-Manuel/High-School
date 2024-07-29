@@ -1,5 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import {
+  slide1,
+  slide2,
+  slide3,
+  slide4,
+  slide5,
+  slide6,
+} from "../../assets/images";
 
 const AllEvents: React.FC = () => {
   return (
@@ -7,7 +15,7 @@ const AllEvents: React.FC = () => {
       <div className="w3-content">
         <div className="grid sm:grid-cols-2 mb-3 gap-4">
           <div className="bg-white rounded shadow-md relative">
-            <img src="/images/slide4.png" alt="" />
+            <img src={slide4} alt="" />
             <div className="text-balance p-5 font-bold">
               <h3 className="font-medium hover:text-blue-500 text-balance">
                 <Link to=""> Youth Sport Conference</Link>
@@ -37,7 +45,7 @@ const AllEvents: React.FC = () => {
             </div>
           </div>
           <div className="bg-white rounded shadow-md relative">
-            <img src="/images/slide3.png" alt="" />
+            <img src={slide3} alt="" />
             <div className="text-balance p-5 font-bold">
               <h3 className="font-medium hover:text-blue-500 text-balance">
                 <Link to="">The 15th year culturer event</Link>
@@ -69,7 +77,7 @@ const AllEvents: React.FC = () => {
         </div>
         <div className="grid sm:grid-cols-2 mb-3 gap-4">
           <div className="bg-white rounded shadow-md relative">
-            <img src="/images/slide5.png" alt="" />
+            <img src={slide5} alt="" />
             <div className="text-balance p-5 font-bold">
               <h3 className="font-medium hover:text-blue-500 text-balance">
                 <Link to=""> Youth Sport Conference</Link>
@@ -99,7 +107,7 @@ const AllEvents: React.FC = () => {
             </div>
           </div>
           <div className="bg-white rounded shadow-md relative">
-            <img src="/images/slide2.png" alt="" />
+            <img src={slide2} alt="" />
             <div className="text-balance p-5 font-bold">
               <h3 className="font-medium hover:text-blue-500 text-balance">
                 <Link to="">The 15th year culturer day events</Link>
@@ -131,7 +139,7 @@ const AllEvents: React.FC = () => {
         </div>
         <div className="grid sm:grid-cols-2 mb-3 gap-4">
           <div className="bg-white rounded shadow-md relative">
-            <img src="/images/slide6.png" alt="" />
+            <img src={slide6} alt="" />
             <div className="text-balance p-5 font-bold">
               <h3 className="font-medium hover:text-blue-500 text-balance">
                 <Link to=""> Youth Sport Conference</Link>
@@ -161,7 +169,7 @@ const AllEvents: React.FC = () => {
             </div>
           </div>
           <div className="bg-white rounded shadow-md relative">
-            <img src="/images/slide1.jpg" alt="" />
+            <img src={slide1} alt="" />
             <div className="text-balance p-5 font-bold">
               <h3 className="font-medium hover:text-blue-500 text-balance">
                 <Link to=""> The 15th year culturer event</Link>
