@@ -87,7 +87,7 @@ function NavBar() {
           ))}
           <Dropdown menu={{ items }}>
             <a onClick={(e) => e.preventDefault()}>
-              <Space className="h-8 sm:h-10 rounded-md p-1 bg-blue-800 text-white hover:bg-gray-700 font-semibold hover:text-white text-sm ">
+              <Space className="h-8 sm:h-10 rounded-md p-1 bg-[#1054c8] text-white hover:bg-gray-700 font-semibold hover:text-white text-sm ">
                 School Portal
                 <MdKeyboardArrowDown />
               </Space>

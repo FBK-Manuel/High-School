@@ -66,3 +66,15 @@ export type LoginformDataErrorType = {
   password?: string;
   role?: string;
 };
+
+// type for header component that states current route
+export type landingPageRouteHeader = {
+  routeTitle: string,
+  routeName: string,
+}
+
+export type perks = {
+  icon: React.ReactNode,
+  heading: string,
+  summary: string,
+}
