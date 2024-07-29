@@ -11,3 +11,11 @@ h1,h2,h3,h4,h5,h6,p,span,a,button,select,textarea,form, input{
 .slick-slide>div {
   margin: 0 10px;
 }
+
+/* set background image */
+.banner{
+  background-image: url("../public/images/banner1.webp");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

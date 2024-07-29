@@ -13,6 +13,7 @@ import slide6 from "../../../public/images/slide6.png";
 import team1 from "../../../public/images/team1.jpg";
 import team2 from "../../../public/images/team2.jpg";
 import team4 from "../../../public/images/team4.jpg";
+import banner1 from "../../../public/images/banner1.webp";
 
 export {
     logo, 
@@ -29,5 +30,6 @@ export {
     slide6, 
     team1, 
     team2, 
-    team4
+    team4,
+    banner1
 }
