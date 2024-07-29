@@ -1,13 +1,14 @@
 import React from "react";
 import { FaLongArrowAltRight } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { slide2 } from "../../assets/images";
 
 const ImageSliders: React.FC = () => {
   return (
     <div>
       <div className="relative w-screen h-[86dvh]">
         <img
-          src="/images/slide2.png"
+          src={slide2}
           alt="Background Image"
           className="absolute inset-0 w-full h-full object-cover"
         />

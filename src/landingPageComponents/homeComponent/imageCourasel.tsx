@@ -2,6 +2,14 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import {
+  slide1,
+  slide2,
+  slide3,
+  slide4,
+  slide5,
+  slide6,
+} from "../../assets/images";
 
 const ImageCourasel: React.FC = () => {
   const settings = {
@@ -19,27 +27,27 @@ const ImageCourasel: React.FC = () => {
       <div>
         <Slider {...settings}>
           <div className="">
-            <img src="/images/slide1.jpg" alt="image" />
+            <img src={slide1} alt="image" />
           </div>
           <div>
-            <img src="/images/slide2.png" alt="image" />
+            <img src={slide2} alt="image" />
           </div>
           <div>
-            <img src="/images/slide3.png" alt="image" />
+            <img src={slide3} alt="image" />
           </div>
           <div>
-            <img src="/images/slide4.png" alt="image" />
+            <img src={slide4} alt="image" />
           </div>
           <div>
-            <img src="/images/slide5.png" alt="image" />
+            <img src={slide5} alt="image" />
           </div>
           <div>
-            <img src="/images/slide6.png" alt="image" />
+            <img src={slide6} alt="image" />
           </div>
         </Slider>
       </div>
 
-      <div className="mt-20 text-center">
+      <div className="mt-20 mb-16 text-center">
         <h3 className="font-semibold text-4xl text-black">
           We Are On <span className="text-blue-600">Instagram</span>
         </h3>

@@ -1,5 +1,6 @@
 import React from "react";
 import { FaCalendarDays } from "react-icons/fa6";
+import { slide1, slide6 } from "../../assets/images";
 
 const UpcomingEvent: React.FC = () => {
   return (
@@ -15,7 +16,7 @@ const UpcomingEvent: React.FC = () => {
           <div className="w3-half p-5">
             <div className="w3-card-4 mb-5 rounded">
               <img
-                src="/public/images/slide6.png"
+                src={slide6}
                 width="100%"
                 height="100%"
                 alt="image"
@@ -34,7 +35,7 @@ const UpcomingEvent: React.FC = () => {
           <div className="w3-half p-5">
             <div className="w3-card-4 rounded-lg">
               <img
-                src="/public/images/slide1.jpg"
+                src={slide1}
                 width="100%"
                 height="100%"
                 alt="image"

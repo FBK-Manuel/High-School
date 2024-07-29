@@ -147,10 +147,10 @@ function SignIn() {
                 </div>
 
                 <div className="flex justify-between items-center mb-4">
-                  <p className="text-gray-700 text-sm">
+                  <p className="text-gray-700 text-xs">
                     Don't have an account?{" "}
                     <Link
-                      className="text-indigo-500 text-sm hover:text-indigo-800 ml-1"
+                      className="text-indigo-500 text-xs hover:text-indigo-800 ml-1"
                       to="/signup">
                       Register
                     </Link>

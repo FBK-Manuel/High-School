@@ -6,6 +6,7 @@ import { IoHeartSharp, IoLogoWhatsapp } from "react-icons/io5";
 import { MdFacebook } from "react-icons/md";
 import { RiInstagramFill } from "react-icons/ri";
 import { Link } from "react-router-dom";
+import { logo } from "../../assets/images";
 
 // import { footerType } from "../../DataTypes/DataTypes";
 
@@ -65,11 +66,11 @@ function Footer() {
   ];
   return (
     <div>
-      <footer className="bg-[#F2F2F2] mt-11 text-black p-10 ">
+      <footer className="bg-[#F2F2F2] text-black p-10 ">
         <div className="w3-row-padding p-10">
           <div className="w3-quarter p-2">
             <div className="inline-flex items-center justify-center">
-              <img src="/logo/fed.png" alt="logo" className="w-24 h-17" />
+              <img src={logo} alt="logo" className="w-24 h-17" />
               <p> -- School of Udemy Academy</p>
             </div>
             <div className="mt-5">
