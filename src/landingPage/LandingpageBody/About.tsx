@@ -1,7 +1,12 @@
-// import React from 'react'
+import { Header } from "../../landingPageComponents/aboutComponent";
 
-function About() {
-  return <div>About</div>;
+
+const About:React.FC = () => {
+  return (
+    <section>
+      <Header />
+    </section>
+  )
 }
 
 export default About;

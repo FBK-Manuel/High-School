@@ -67,9 +67,9 @@ function NavBar() {
   // }, []);
   const [isOpen, setIsOpen] = useState<boolean>(false);
   return (
-    <div className="w3-top">
+    <>
       {/* for desktop */}
-      <nav className=" w3-hide-small w3-hide-medium top-0 flex z-50 items-center justify-between shadow-md bg-white text-black pr-10 pl-10 p-5">
+      <nav className="h-[16dvh] w3-hide-small w3-hide-medium  flex z-30 items-center justify-between shadow-md bg-white text-black pr-10 pl-10 p-5">
         <div className="flex-shrink-0">
           {/* Logo */}
           <img src="/logo/fed.png" alt="Logo" className="h-11 sm:h-10 " />
@@ -151,7 +151,7 @@ function NavBar() {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 }
 

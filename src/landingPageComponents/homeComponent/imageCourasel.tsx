@@ -39,7 +39,7 @@ const ImageCourasel: React.FC = () => {
         </Slider>
       </div>
 
-      <div className="mt-20 text-center">
+      <div className="mt-20 mb-16 text-center">
         <h3 className="font-semibold text-4xl text-black">
           We Are On <span className="text-blue-600">Instagram</span>
         </h3>

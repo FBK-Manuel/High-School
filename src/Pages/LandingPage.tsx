@@ -7,19 +7,17 @@ import Footer from "../landingPage/LandingPageFooter/Footer";
 
 function LandingPage() {
   return (
-    <div>
-      <div>
-        <header>
-          <NavBar />
-        </header>
-        <main>
-          <Outlet />
-        </main>
-        <footer>
-          <Footer />
-        </footer>
-      </div>
-    </div>
+    <>
+      <header className="sticky top-0 z-50">
+        <NavBar />
+      </header>
+      <main>
+        <Outlet />
+      </main>
+      <footer>
+        <Footer />
+      </footer>
+    </>
   );
 }
 

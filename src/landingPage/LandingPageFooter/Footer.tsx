@@ -65,7 +65,7 @@ function Footer() {
   ];
   return (
     <div>
-      <footer className="bg-[#F2F2F2] mt-11 text-black p-10 ">
+      <footer className="bg-[#F2F2F2] text-black p-10 ">
         <div className="w3-row-padding p-10">
           <div className="w3-quarter p-2">
             <div className="inline-flex items-center justify-center">

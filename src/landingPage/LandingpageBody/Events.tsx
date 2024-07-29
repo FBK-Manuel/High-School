@@ -1,11 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Search } from "../../landingPageComponents/Index";
+import {
+  AllEvents,
+  QuickRegistration,
+  Search,
+} from "../../landingPageComponents/EventsComponent/Index";
 
 const Events: React.FC = () => {
   return (
     <div className=" ">
-      <div className="pt-24 bg-[#F2F2F2]">
+      <div className="bg-[#F2F2F2]">
         <div className="text-center p-20 text-gray-900">
           <h2 className="text-4xl text-balance font-bold">Upcoming Events</h2>
           <div className="inline-flex mt-3">
@@ -16,8 +20,14 @@ const Events: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className="w3-content">
+      <div className="">
         <Search />
+        <div className="bg-[#F2F2F2] p-20">
+          <AllEvents />
+        </div>
+        <div className="bg-[#1054c8]">
+          <QuickRegistration />
+        </div>
       </div>
     </div>
   );
