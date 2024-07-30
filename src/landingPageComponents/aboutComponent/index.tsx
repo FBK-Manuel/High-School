@@ -3,5 +3,7 @@ import SubHeader from "./SubHeader";
 import Intro from "./Intro";
 import Perks from "./Perks";
 import Banner from "./Banner";
+import MeetTeachers from "./MeetTeachers";
+import Teacher from "./Teacher";
 
-export { Header, SubHeader, Intro, Perks, Banner };
+export { Header, SubHeader, Intro, Perks, Banner, MeetTeachers, Teacher };

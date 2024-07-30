@@ -9,7 +9,7 @@ const Intro: React.FC = () => {
       </div>
       <div className="flex flex-col gap-4 items-start md:flex-1">
         <h2 className="text-[2rem] text-[#333333]">Welcome to <span className="text-[#1054c8]">Udemy</span> a prestigious secondary school</h2>
-        <p className="text-[#9b9b9b] text-base md:text-lg font-light leading-6">We understand that each of our students is a uniquely talented individual. Within our supportive community, students are facilitated to develop positive relationships and grab the opportunity to realize their individual potential to the full.</p>
+        <p className="text-[#54585f] text-base md:text-lg font-light leading-6">We understand that each of our students is a uniquely talented individual. Within our supportive community, students are facilitated to develop positive relationships and grab the opportunity to realize their individual potential to the full.</p>
         <button className="text-white bg-[#1054c8] text-base py-[0.5em] px-[1.5em] rounded-md">Learn More</button>
       </div>
     </section>

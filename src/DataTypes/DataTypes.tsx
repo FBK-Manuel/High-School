@@ -78,3 +78,16 @@ export type perks = {
   heading: string,
   summary: string,
 }
+
+type socialMediaHandles = {
+  ig: string,
+  twitter: string,
+  facebook: string,
+  linkedin: string,
+}
+export type teacher = {
+  image: string,
+  fullName: string,
+  subject: string,
+  social: socialMediaHandles
+}

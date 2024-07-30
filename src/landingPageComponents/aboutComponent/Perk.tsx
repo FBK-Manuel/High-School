@@ -9,7 +9,7 @@ const Perk: React.FC<perks> = ({icon, heading, summary}) => {
         </div>
         <div className="flex flex-col gap-2">
             <h3 className="text-base text-[#333333] font-medium uppercase tracking-wide">{heading}</h3>
-            <p className="text-base text-[#9b9b9b] font-light">{summary}</p>
+            <p className="text-base text-[#54585f] font-light">{summary}</p>
         </div>
     </div>
   )
