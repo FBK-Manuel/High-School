@@ -1,12 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import {
   AllEvents,
   QuickRegistration,
   Search,
 } from "../../landingPageComponents/EventsComponent/Index";
+import { ScrollToTop } from "../../scrollToTop/ScrollToTop";
 
 const Events: React.FC = () => {
+  const location = useLocation();
+  useEffect(() => {
+    ScrollToTop();
+  }, [location]);
   return (
     <div className=" ">
       <div className="bg-[#F2F2F2]">
@@ -20,6 +25,7 @@ const Events: React.FC = () => {
           </div>
         </div>
       </div>
+
       <div className="">
         <Search />
         <div className="bg-[#F2F2F2] p-20">

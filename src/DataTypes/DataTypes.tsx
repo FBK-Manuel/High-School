@@ -69,29 +69,33 @@ export type LoginformDataErrorType = {
 
 // type for header component that states current route
 export type landingPageRouteHeader = {
-  routeTitle: string,
-  routeName: string,
-}
+  routeTitle: string;
+  routeName: string;
+};
 
 // type for perks component
 export type perks = {
-  icon: React.ReactNode,
-  heading: string,
-  summary: string,
-}
+  icon: React.ReactNode;
+  heading: string;
+  summary: string;
+};
 
 // type for social media handles data
 type socialMediaHandles = {
-  ig: string,
-  twitter: string,
-  facebook: string,
-  linkedin: string,
-}
+  ig: string;
+  twitter: string;
+  facebook: string;
+  linkedin: string;
+};
 
 // type for teacher component
 export type teacher = {
-  image: string,
-  fullName: string,
-  subject: string,
-  social: socialMediaHandles
-}
+  image: string;
+  fullName: string;
+  subject: string;
+  social: socialMediaHandles;
+};
+
+export type ScrollToTopButtonType = {
+  handleClick: () => void;
+};

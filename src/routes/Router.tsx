@@ -10,6 +10,7 @@ import {
   Others,
 } from "../landingPage/Index";
 import { LandingPage, SignIn, Signup } from "../Pages/Index";
+import SingleEventPage from "../landingPageComponents/EventsComponent/SingleEventPage";
 
 // import React from 'react'
 
@@ -59,6 +60,11 @@ function Router() {
         {
           path: "events",
           element: <Events />,
+          errorElement: <NotFound />,
+        },
+        {
+          path: "singleEvent",
+          element: <SingleEventPage />,
           errorElement: <NotFound />,
         },
       ],

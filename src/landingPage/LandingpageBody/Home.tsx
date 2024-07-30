@@ -1,5 +1,4 @@
-
-
+import { useLocation } from "react-router-dom";
 import {
   ImageSliders,
   ImageCourasel,
@@ -10,8 +9,14 @@ import {
   WelcomeComponent,
   WhyChooseUs,
 } from "../../landingPageComponents/homeComponent/Index";
+import { useEffect } from "react";
+import { ScrollToTop } from "../../scrollToTop/ScrollToTop";
 
 function Home() {
+  const location = useLocation();
+  useEffect(() => {
+    ScrollToTop();
+  }, [location]);
   return (
     <div>
       <ImageSliders />

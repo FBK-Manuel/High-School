@@ -127,7 +127,7 @@ function Footer() {
           </div>
         </div>
         <div>
-          <hr className="border border-gray-400 p-3" />
+          <hr className="border border-gray-400 p-2 w3-content" />
 
           <div className="w3-container text-center ">
             <p className="inline-flex text-gray-400 pb-3 text-center justify-center items-center">

@@ -15,12 +15,12 @@ const QuickRegistration: React.FC = () => {
           </div>
           <div className="inline-flex flex-wrap">
             <Link
-              className="bg-[#1054C8] mb-2 inline-flex gap-2 justify-center items-center border mr-2 text-white text-xl p-2 hover:bg-white hover:text-blue-600 transition duration-700 ease-in-out border-white rounded"
+              className="bg-[#1054C8] mb-2 inline-flex gap-2 justify-center items-center border mr-2 text-white text-xl p-2 hover:bg-white hover:text-blue-600 transition duration-700 ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 border-white rounded"
               to="/contact">
               Contact <IoArrowForward />
             </Link>
             <Link
-              className="bg-white border mb-2 inline-flex gap-2 justify-center items-center text-blue-600 p-3 text-xl hover:bg-[#1054C8] hover:text-white transition duration-700 ease-in-out border-white rounded"
+              className="bg-white border mb-2 inline-flex gap-2 justify-center items-center text-blue-600 p-3 text-xl hover:bg-[#1054C8] hover:text-white transition duration-700 ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 border-white rounded"
               to="/signup">
               Register
               <IoArrowForward />

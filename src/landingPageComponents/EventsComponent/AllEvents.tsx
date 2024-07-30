@@ -8,7 +8,8 @@ import {
   slide5,
   slide6,
 } from "../../assets/images";
-
+import { Pagination } from "antd";
+const route = "/singleEvent";
 const AllEvents: React.FC = () => {
   return (
     <div>
@@ -18,7 +19,7 @@ const AllEvents: React.FC = () => {
             <img src={slide4} alt="" />
             <div className="text-balance p-5 font-bold">
               <h3 className="font-medium hover:text-blue-500 text-balance">
-                <Link to=""> Youth Sport Conference</Link>
+                <Link to={route}> Youth Sport Conference</Link>
               </h3>
               <div className="flex gap-4">
                 <i className="text-gray-400 text-xs ">30 Times Square</i>
@@ -198,6 +199,9 @@ const AllEvents: React.FC = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div className="pt-7">
+          <Pagination align="center" defaultCurrent={1} total={50} />
         </div>
       </div>
     </div>
