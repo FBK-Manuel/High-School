@@ -1,4 +1,4 @@
-import { Header, Intro, Perks, SubHeader, Banner, MeetTeachers } from "../../landingPageComponents/aboutComponent";
+import { Header, Intro, Perks, SubHeader, Banner, MeetTeachers, Brands } from "../../landingPageComponents/aboutComponent";
 
 
 const About:React.FC = () => {
@@ -10,6 +10,7 @@ const About:React.FC = () => {
       <Perks />
       <Banner />
       <MeetTeachers />
+      <Brands />
     </section>
   )
 }

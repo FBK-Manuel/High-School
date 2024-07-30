@@ -73,18 +73,22 @@ export type landingPageRouteHeader = {
   routeName: string,
 }
 
+// type for perks component
 export type perks = {
   icon: React.ReactNode,
   heading: string,
   summary: string,
 }
 
+// type for social media handles data
 type socialMediaHandles = {
   ig: string,
   twitter: string,
   facebook: string,
   linkedin: string,
 }
+
+// type for teacher component
 export type teacher = {
   image: string,
   fullName: string,

@@ -14,6 +14,12 @@ import team1 from "../../../public/images/team1.jpg";
 import team2 from "../../../public/images/team2.jpg";
 import team4 from "../../../public/images/team4.jpg";
 import banner1 from "../../../public/images/banner1.webp";
+import brand1 from "../../../public/images/brand1.webp";
+import brand2 from "../../../public/images/brand2.webp";
+import brand3 from "../../../public/images/brand3.webp";
+import brand4 from "../../../public/images/brand4.webp";
+import brand5 from "../../../public/images/brand5.webp";
+import brand6 from "../../../public/images/brand6.webp";
 import teacher1 from "../../../public/images/teacher1.jpg"
 import teacher2 from "../../../public/images/teacher2.jpg"
 import teacher3 from "../../../public/images/teacher3.jpg"
@@ -38,6 +44,12 @@ export {
     team2, 
     team4,
     banner1,
+    brand1,
+    brand2,
+    brand3,
+    brand4,
+    brand5,
+    brand6,
     teacher1,
     teacher2,
     teacher3,

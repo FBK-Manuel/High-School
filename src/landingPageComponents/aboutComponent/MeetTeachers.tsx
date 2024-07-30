@@ -78,7 +78,7 @@ const MeetTeachers = () => {
         },
     ]
   return (
-    <section className="flex flex-col gap-6 md:gap-8 lg:gap-12 w-[94%] mx-auto my-6 md:my-8 lg:my-12">
+    <section className="flex flex-col gap-6 md:gap-8 lg:gap-20 w-[94%] mx-auto my-6 md:my-8 lg:my-12">
         <div className="flex flex-col gap-2 sm:gap-3">
             <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-5xl text-[#333333] text-center font-medium capitalize">
                 Meet our <span className="text-[#1054c8]">teachers</span>

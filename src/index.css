@@ -12,10 +12,29 @@ h1,h2,h3,h4,h5,h6,p,span,a,button,select,textarea,form, input{
   margin: 0 10px;
 }
 
-/* set background image */
+/* set background image for about banner component */
 .banner{
   background-image: url("../public/images/banner1.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+/* Brand component edits */
+.mask{
+  -webkit-mask: linear-gradient(
+      90deg, transparent,white 20%, white 80%, transparent
+  );
+  mask: linear-gradient(
+      90deg, transparent,white 20%, white 80%, transparent
+  );
+}
+.maskAnimation{
+  animation: marquee 30s linear infinite forwards !important;
+}
+
+@keyframes marquee{
+  to{
+    transform: translateX(-100%);
+  }
 }
