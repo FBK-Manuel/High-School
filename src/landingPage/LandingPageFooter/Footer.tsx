@@ -132,7 +132,7 @@ function Footer() {
           <div className="w3-container text-center ">
             <p className="inline-flex text-gray-400 pb-3 text-center justify-center items-center">
               <FaRegCopyright className="text-gray-400 text-center" size={15} />
-              2024 | Alright Reserved | Made by HackHarik Developers.
+              2024 | Alright Reserved | Built by HackHarik Developers & Codewithsleek.
               <IoHeartSharp className="hover:text-pink-700" size={20} />
             </p>
           </div>

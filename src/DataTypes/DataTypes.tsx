@@ -109,3 +109,11 @@ export type admissionProcess = {
   description: string,
   flip?: boolean
 }
+
+// milestone component
+export type milestone = {
+  icon: React.ReactNode,
+  totalCount: number,
+  totalCountUnit?: string,
+  title: string,
+}
