@@ -26,6 +26,9 @@ import teacher3 from "../../../public/images/teacher3.jpg"
 import teacher4 from "../../../public/images/teacher4.jpg"
 import teacher5 from "../../../public/images/teacher5.jpg"
 import teacher6 from "../../../public/images/teacher6.jpg"
+import academics1 from "../../../public/images/academics1.jpg"
+import academics2 from "../../../public/images/academics2.jpg"
+import academics3 from "../../../public/images/academics3.jpg"
 
 export {
     logo, 
@@ -55,5 +58,8 @@ export {
     teacher3,
     teacher4,
     teacher5,
-    teacher6
+    teacher6,
+    academics1,
+    academics2,
+    academics3
 }

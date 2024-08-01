@@ -96,6 +96,16 @@ export type teacher = {
   social: socialMediaHandles;
 };
 
+// scroll to top type
 export type ScrollToTopButtonType = {
   handleClick: () => void;
 };
+
+// Admission process component
+export type admissionProcess = {
+  image: string,
+  digit: number,
+  title: string,
+  description: string,
+  flip?: boolean
+}
